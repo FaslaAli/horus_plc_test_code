@@ -1,0 +1,66 @@
+AutoShop
+	1
+PROG
+ROOT
+	FILE	MAIN.ST
+	FILE	SBR_001.ST
+	FILE	SBR_InputMapping.ST
+	FILE	SBR_OutputMapping.ST
+	FILE	SBR_SystemMonitor.ST
+	FILE	SBR_TowerLamp.ST
+	FILE	SBR_UpdateHWResources.ST
+	FILE	INT_001.ST
+	FOLDER	CameraStation
+		FILE	SBR_CameraBonDisengage.ST
+		FILE	SBR_CameraBonEngage.ST
+		FILE	SBR_CameraCommandHandler.ST
+		FILE	SBR_CameraDisengage.ST
+		FILE	SBR_CameraDoorClose.ST
+		FILE	SBR_CameraDoorOpen.ST
+		FILE	SBR_CameraEngage.ST
+		FILE	SBR_CameraInitialize.ST
+	FOLDER	FocusStation
+		FILE	SBR_FOCUSCOMMANDHANDLER.ST
+		FILE	SBR_FOCUSINITIALIZE.ST
+		FILE	SBR_FOCUSNOTCHMOVE.ST
+		FILE	SBR_FOCUSPLATFORMMOVE.ST
+		FILE	SBR_FocusSyncRotate.ST
+	FOLDER	LaserSensor
+		FILE	SBR_LASERCOMMANDHANDLER.ST
+		FILE	SBR_LASERCOMMUNICATION.LD
+		FILE	SBR_LaserInitialize.ST
+		FILE	SBR_LaserOff.ST
+		FILE	SBR_LaserOn.ST
+		FILE	SBR_LaserRead.ST
+		FILE	SBR_LaserReadStatus.ST
+		FILE	SBR_LaserSensitivity.ST
+		FILE	SBR_LaserSetAveraging.ST
+		FILE	SBR_LaserSetMeasurementMode.ST
+		FILE	SBR_LaserSetSamplingPeriod.ST
+		FILE	SBR_LaserTeachFGS2.ST
+		FILE	SBR_LaserTeachFar.ST
+		FILE	SBR_LaserTeachNear.ST
+		FILE	SBR_LaserWriteSetting.ST
+		FILE	SBR_test.ST
+		FILE	SBR_TEST2.ST
+	FOLDER	LinearStage
+		FILE	SBR_LSCOMMANDHANDLER.ST
+		FILE	SBR_LSINITIALIZE.ST
+		FILE	SBR_LSMOVETOTARGETS.ST
+	FOLDER	Scanner
+		FILE	SBR_ScannerCommandHandler.ST
+		FILE	SBR_ScannerCommunication.LD
+		FILE	SBR_ScannerInitialize.ST
+		FILE	SBR_ScannerRead.ST
+		FILE	SBR_ScannerTriggerOff.ST
+	FOLDER	ThermalStation
+		FILE	SBR_ThermalCommandHandler.ST
+		FILE	SBR_ThermalInitialize.ST
+		FILE	SBR_ThermalMapping.ST
+		FILE	SBR_ThermalSetAmbTemperature.ST
+		FILE	SBR_ThermalSetHotTemperature.ST
+		FILE	SBR_ThermalSystemMonitor.ST
+FB
+ROOT
+FC
+ROOT
